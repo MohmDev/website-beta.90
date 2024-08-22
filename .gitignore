@@ -3,9 +3,12 @@ dist / media
 node_modules
 .DS_Store
 .env
+.env.local
 .next
 .vercel
 
 # Payload default media upload directory
 public/media/*
 !public/media/.gitkeep
+
+.vercel
