@@ -1,6 +1,6 @@
 [build]
 builder = "NIXPACKS"
-buildEnvironment = "V1"
+# buildEnvironment = "V2"
 nixpacksConfigPath = "buildFiles/nixpacks.build.pnpm.toml"
 
 [deploy]
