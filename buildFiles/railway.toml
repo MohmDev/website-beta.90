@@ -1,6 +1,6 @@
 [build]
 builder = "NIXPACKS"
-nixpacksConfigPath = "buildFiles/nixpacks.build.pnpm.toml"
+nixpacksConfigPath = "./nixpacks.build.pnpm.toml"
 
 [deploy]
 region = "europe-west4"
