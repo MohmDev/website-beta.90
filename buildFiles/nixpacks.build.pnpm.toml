@@ -8,7 +8,7 @@ NODE_ENV = 'production'
 NPM_CONFIG_PRODUCTION = 'false'
 [phases.build]
 dependsOn = ['install']
-cmds = ['pnpm run build']
+cmds = ['cross-env NODE_OPTIONS=--no-deprecation next build']
 cacheDirectories = [
     '.next/cache',
     'node_modules/.cache',
